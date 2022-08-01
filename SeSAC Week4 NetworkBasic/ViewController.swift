@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  SeSAC Week4 NetworkBasic
-//
-//  Created by 이명진 on 2022/07/27.
-//
+
 
 import UIKit
 
@@ -20,6 +15,8 @@ class ViewController: UIViewController, ViewPresentableProtocol {
         }
     }
     
+    
+    
     var backgroundColor: UIColor = .blue
     
     func configureView() {
@@ -35,8 +32,11 @@ class ViewController: UIViewController, ViewPresentableProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        UserDefaultsHelper.standard.nickName = "고래밥"
+        title = UserDefaultsHelper.standard.nickName
         
-        
+        UserDefaultsHelper.standard.age = 80
+        print(UserDefaultsHelper.standard.age)
         
     }
     

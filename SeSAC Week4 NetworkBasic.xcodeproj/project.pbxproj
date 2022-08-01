@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6349D9C2897527B004B37BF /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6349D9B2897527B004B37BF /* ReusableViewProtocol.swift */; };
+		F6349D9F28975790004B37BF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6349D9E28975790004B37BF /* Constant.swift */; };
+		F6349DA128975FA0004B37BF /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6349DA028975FA0004B37BF /* UserDefaultsHelper.swift */; };
+		F6349DA428977CDC004B37BF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F6349DA328977CDC004B37BF /* SwiftyJSON */; };
+		F6349DA728977CF2004B37BF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F6349DA628977CF2004B37BF /* Alamofire */; };
+		F6349DA92897DBA9004B37BF /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6349DA82897DBA9004B37BF /* BeerViewController.swift */; };
+		F6349DAC2897DFB1004B37BF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F6349DAB2897DFB1004B37BF /* Kingfisher */; };
 		F6A61D952890DD7600435A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61D942890DD7600435A8E /* AppDelegate.swift */; };
 		F6A61D972890DD7600435A8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61D962890DD7600435A8E /* SceneDelegate.swift */; };
 		F6A61D992890DD7600435A8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61D982890DD7600435A8E /* ViewController.swift */; };
@@ -23,9 +30,16 @@
 		F6EEA35428927ED500D0426F /* Webkit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EEA35328927ED500D0426F /* Webkit.storyboard */; };
 		F6EEA35728927F0300D0426F /* WebkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EEA35628927F0300D0426F /* WebkitViewController.swift */; };
 		F6EEA35928927F9C00D0426F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EEA35828927F9C00D0426F /* DetailViewController.swift */; };
+		F6EEA35B28935D4A00D0426F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EEA35A28935D4A00D0426F /* MapViewController.swift */; };
+		F6EEA35F289384D700D0426F /* BinggraeMelona.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6EEA35D289384D700D0426F /* BinggraeMelona.ttf */; };
+		F6EEA360289384D700D0426F /* BinggraeMelona-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6EEA35E289384D700D0426F /* BinggraeMelona-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6349D9B2897527B004B37BF /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		F6349D9E28975790004B37BF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F6349DA028975FA0004B37BF /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		F6349DA82897DBA9004B37BF /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
 		F6A61D912890DD7600435A8E /* SeSAC Week4 NetworkBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC Week4 NetworkBasic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A61D942890DD7600435A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A61D962890DD7600435A8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +58,9 @@
 		F6EEA35328927ED500D0426F /* Webkit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Webkit.storyboard; sourceTree = "<group>"; };
 		F6EEA35628927F0300D0426F /* WebkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebkitViewController.swift; sourceTree = "<group>"; };
 		F6EEA35828927F9C00D0426F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F6EEA35A28935D4A00D0426F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F6EEA35D289384D700D0426F /* BinggraeMelona.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BinggraeMelona.ttf; sourceTree = "<group>"; };
+		F6EEA35E289384D700D0426F /* BinggraeMelona-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BinggraeMelona-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +68,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6349DAC2897DFB1004B37BF /* Kingfisher in Frameworks */,
+				F6349DA428977CDC004B37BF /* SwiftyJSON in Frameworks */,
+				F6349DA728977CF2004B37BF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6349D9D2897577C004B37BF /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				F6349D9E28975790004B37BF /* Constant.swift */,
+				F6349DA028975FA0004B37BF /* UserDefaultsHelper.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		F6A61D882890DD7600435A8E = {
 			isa = PBXGroup;
 			children = (
@@ -76,13 +105,13 @@
 		F6A61D932890DD7600435A8E /* SeSAC Week4 NetworkBasic */ = {
 			isa = PBXGroup;
 			children = (
+				F6349D9D2897577C004B37BF /* Constant */,
+				F6EEA35C2893841500D0426F /* Font */,
 				F6EEA35528927EDE00D0426F /* Webkit */,
 				F6A61DDE28920CA800435A8E /* Protocol */,
 				F6A61D942890DD7600435A8E /* AppDelegate.swift */,
 				F6A61D962890DD7600435A8E /* SceneDelegate.swift */,
 				F6A61D982890DD7600435A8E /* ViewController.swift */,
-				F6A61D9A2890DD7600435A8E /* Main.storyboard */,
-				F6A61DE12892236800435A8E /* LottoViewController.swift */,
 				F6A61DB22890E5AD00435A8E /* SearchViewController.swift */,
 				F6A61DAE2890E4CA00435A8E /* ListTableViewCell.swift */,
 				F6A61DAF2890E4CA00435A8E /* ListTableViewCell.xib */,
@@ -96,9 +125,14 @@
 		F6A61DDE28920CA800435A8E /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				F6A61D9A2890DD7600435A8E /* Main.storyboard */,
+				F6349DA82897DBA9004B37BF /* BeerViewController.swift */,
+				F6A61DE12892236800435A8E /* LottoViewController.swift */,
+				F6EEA35A28935D4A00D0426F /* MapViewController.swift */,
 				F6A61DDF28920CD800435A8E /* ViewPresentableProtocol.swift */,
 				F6A61DE32892304E00435A8E /* TranslateViewController.swift */,
 				F6EEA35128923AC300D0426F /* WebViewController.swift */,
+				F6349D9B2897527B004B37BF /* ReusableViewProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -111,6 +145,15 @@
 				F6EEA35828927F9C00D0426F /* DetailViewController.swift */,
 			);
 			path = Webkit;
+			sourceTree = "<group>";
+		};
+		F6EEA35C2893841500D0426F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F6EEA35E289384D700D0426F /* BinggraeMelona-Bold.ttf */,
+				F6EEA35D289384D700D0426F /* BinggraeMelona.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +172,11 @@
 			dependencies = (
 			);
 			name = "SeSAC Week4 NetworkBasic";
+			packageProductDependencies = (
+				F6349DA328977CDC004B37BF /* SwiftyJSON */,
+				F6349DA628977CF2004B37BF /* Alamofire */,
+				F6349DAB2897DFB1004B37BF /* Kingfisher */,
+			);
 			productName = "SeSAC Week4 NetworkBasic";
 			productReference = F6A61D912890DD7600435A8E /* SeSAC Week4 NetworkBasic.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +205,11 @@
 				Base,
 			);
 			mainGroup = F6A61D882890DD7600435A8E;
+			packageReferences = (
+				F6349DA228977CDC004B37BF /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				F6349DA528977CF2004B37BF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F6349DAA2897DFB1004B37BF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F6A61D922890DD7600435A8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -171,7 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6EEA360289384D700D0426F /* BinggraeMelona-Bold.ttf in Resources */,
 				F6A61DA12890DD7700435A8E /* LaunchScreen.storyboard in Resources */,
+				F6EEA35F289384D700D0426F /* BinggraeMelona.ttf in Resources */,
 				F6A61DB12890E4CA00435A8E /* ListTableViewCell.xib in Resources */,
 				F6A61D9E2890DD7700435A8E /* Assets.xcassets in Resources */,
 				F6EEA35428927ED500D0426F /* Webkit.storyboard in Resources */,
@@ -186,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6349DA92897DBA9004B37BF /* BeerViewController.swift in Sources */,
+				F6349DA128975FA0004B37BF /* UserDefaultsHelper.swift in Sources */,
 				F6EEA35928927F9C00D0426F /* DetailViewController.swift in Sources */,
 				F6A61DB32890E5AD00435A8E /* SearchViewController.swift in Sources */,
 				F6EEA35228923AC300D0426F /* WebViewController.swift in Sources */,
@@ -193,10 +250,13 @@
 				F6A61D992890DD7600435A8E /* ViewController.swift in Sources */,
 				F6A61D952890DD7600435A8E /* AppDelegate.swift in Sources */,
 				F6A61DE22892236800435A8E /* LottoViewController.swift in Sources */,
+				F6349D9F28975790004B37BF /* Constant.swift in Sources */,
+				F6EEA35B28935D4A00D0426F /* MapViewController.swift in Sources */,
 				F6A61D972890DD7600435A8E /* SceneDelegate.swift in Sources */,
 				F6A61DE42892304E00435A8E /* TranslateViewController.swift in Sources */,
 				F6A61DE028920CD800435A8E /* ViewPresentableProtocol.swift in Sources */,
 				F6A61DB02890E4CA00435A8E /* ListTableViewCell.swift in Sources */,
+				F6349D9C2897527B004B37BF /* ReusableViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +476,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6349DA228977CDC004B37BF /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F6349DA528977CF2004B37BF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F6349DAA2897DFB1004B37BF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6349DA328977CDC004B37BF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6349DA228977CDC004B37BF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		F6349DA628977CF2004B37BF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6349DA528977CF2004B37BF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F6349DAB2897DFB1004B37BF /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6349DAA2897DFB1004B37BF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F6A61D892890DD7600435A8E /* Project object */;
 }
