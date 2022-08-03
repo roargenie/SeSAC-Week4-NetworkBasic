@@ -19,6 +19,7 @@
 		F6349DB92899276C004B37BF /* BeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6349DB72899276C004B37BF /* BeerTableViewCell.swift */; };
 		F6349DBA2899276C004B37BF /* BeerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6349DB82899276C004B37BF /* BeerTableViewCell.xib */; };
 		F6349DBC28992F39004B37BF /* BeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6349DBB28992F39004B37BF /* BeerModel.swift */; };
+		F6349DED289A0962004B37BF /* ImageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6349DEC289A0962004B37BF /* ImageSearchViewController.swift */; };
 		F6A61D952890DD7600435A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61D942890DD7600435A8E /* AppDelegate.swift */; };
 		F6A61D972890DD7600435A8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61D962890DD7600435A8E /* SceneDelegate.swift */; };
 		F6A61D992890DD7600435A8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61D982890DD7600435A8E /* ViewController.swift */; };
@@ -31,6 +32,9 @@
 		F6A61DE028920CD800435A8E /* ViewPresentableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61DDF28920CD800435A8E /* ViewPresentableProtocol.swift */; };
 		F6A61DE22892236800435A8E /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61DE12892236800435A8E /* LottoViewController.swift */; };
 		F6A61DE42892304E00435A8E /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61DE32892304E00435A8E /* TranslateViewController.swift */; };
+		F6B4E678289AAA56006C0D52 /* ImageSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4E677289AAA56006C0D52 /* ImageSearchModel.swift */; };
+		F6B4E67B289AAE8A006C0D52 /* ImageSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4E679289AAE8A006C0D52 /* ImageSearchCollectionViewCell.swift */; };
+		F6B4E67C289AAE8A006C0D52 /* ImageSearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6B4E67A289AAE8A006C0D52 /* ImageSearchCollectionViewCell.xib */; };
 		F6EEA35228923AC300D0426F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EEA35128923AC300D0426F /* WebViewController.swift */; };
 		F6EEA35428927ED500D0426F /* Webkit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EEA35328927ED500D0426F /* Webkit.storyboard */; };
 		F6EEA35728927F0300D0426F /* WebkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EEA35628927F0300D0426F /* WebkitViewController.swift */; };
@@ -50,6 +54,7 @@
 		F6349DB72899276C004B37BF /* BeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewCell.swift; sourceTree = "<group>"; };
 		F6349DB82899276C004B37BF /* BeerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerTableViewCell.xib; sourceTree = "<group>"; };
 		F6349DBB28992F39004B37BF /* BeerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerModel.swift; sourceTree = "<group>"; };
+		F6349DEC289A0962004B37BF /* ImageSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchViewController.swift; sourceTree = "<group>"; };
 		F6A61D912890DD7600435A8E /* SeSAC Week4 NetworkBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC Week4 NetworkBasic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A61D942890DD7600435A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A61D962890DD7600435A8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +69,9 @@
 		F6A61DDF28920CD800435A8E /* ViewPresentableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentableProtocol.swift; sourceTree = "<group>"; };
 		F6A61DE12892236800435A8E /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 		F6A61DE32892304E00435A8E /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		F6B4E677289AAA56006C0D52 /* ImageSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchModel.swift; sourceTree = "<group>"; };
+		F6B4E679289AAE8A006C0D52 /* ImageSearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6B4E67A289AAE8A006C0D52 /* ImageSearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSearchCollectionViewCell.xib; sourceTree = "<group>"; };
 		F6EEA35128923AC300D0426F /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F6EEA35328927ED500D0426F /* Webkit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Webkit.storyboard; sourceTree = "<group>"; };
 		F6EEA35628927F0300D0426F /* WebkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebkitViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				F6A61D9A2890DD7600435A8E /* Main.storyboard */,
+				F6349DEC289A0962004B37BF /* ImageSearchViewController.swift */,
+				F6B4E679289AAE8A006C0D52 /* ImageSearchCollectionViewCell.swift */,
+				F6B4E67A289AAE8A006C0D52 /* ImageSearchCollectionViewCell.xib */,
+				F6B4E677289AAA56006C0D52 /* ImageSearchModel.swift */,
 				F6349DB52899271F004B37BF /* BeerListViewController.swift */,
 				F6349DBB28992F39004B37BF /* BeerModel.swift */,
 				F6A61DB22890E5AD00435A8E /* SearchViewController.swift */,
@@ -240,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6EEA360289384D700D0426F /* BinggraeMelona-Bold.ttf in Resources */,
+				F6B4E67C289AAE8A006C0D52 /* ImageSearchCollectionViewCell.xib in Resources */,
 				F6A61DA12890DD7700435A8E /* LaunchScreen.storyboard in Resources */,
 				F6EEA35F289384D700D0426F /* BinggraeMelona.ttf in Resources */,
 				F6A61DB12890E4CA00435A8E /* ListTableViewCell.xib in Resources */,
@@ -264,6 +277,7 @@
 				F6EEA35228923AC300D0426F /* WebViewController.swift in Sources */,
 				F6EEA35728927F0300D0426F /* WebkitViewController.swift in Sources */,
 				F6A61D992890DD7600435A8E /* ViewController.swift in Sources */,
+				F6B4E67B289AAE8A006C0D52 /* ImageSearchCollectionViewCell.swift in Sources */,
 				F6A61D952890DD7600435A8E /* AppDelegate.swift in Sources */,
 				F6A61DE22892236800435A8E /* LottoViewController.swift in Sources */,
 				F6349D9F28975790004B37BF /* Constant.swift in Sources */,
@@ -274,6 +288,8 @@
 				F6349DB62899271F004B37BF /* BeerListViewController.swift in Sources */,
 				F6A61DE42892304E00435A8E /* TranslateViewController.swift in Sources */,
 				F6349DAE2898BD1C004B37BF /* BoxOfficeModel.swift in Sources */,
+				F6B4E678289AAA56006C0D52 /* ImageSearchModel.swift in Sources */,
+				F6349DED289A0962004B37BF /* ImageSearchViewController.swift in Sources */,
 				F6A61DE028920CD800435A8E /* ViewPresentableProtocol.swift in Sources */,
 				F6A61DB02890E4CA00435A8E /* ListTableViewCell.swift in Sources */,
 				F6349D9C2897527B004B37BF /* ReusableViewProtocol.swift in Sources */,

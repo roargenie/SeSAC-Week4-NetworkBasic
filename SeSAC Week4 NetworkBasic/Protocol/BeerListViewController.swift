@@ -18,9 +18,11 @@ class BeerListViewController: UIViewController {
         beerTabelView.dataSource = self
         
         beerTabelView.register(UINib(nibName: BeerTableViewCell.reuseIdentifier, bundle: nil), forCellReuseIdentifier: BeerTableViewCell.reuseIdentifier)
+        
         requestBeerList()
+        
         self.beerTabelView.rowHeight = 200
-        self.beerTabelView.reloadData()
+        
     }
     
     func requestBeerList() {
@@ -33,21 +35,14 @@ class BeerListViewController: UIViewController {
                 let json = JSON(value)
                 
                 for i in 0...10 {
-                    let id = json[i]["id"].stringValue
-                    print(id)
                     let name = json[i]["name"].stringValue
-                    print(name)
                     let description = json[i]["description"].stringValue
-                    
                     let imageURL = json[i]["image_url"].stringValue
-                    
                     guard let image = URL(string: imageURL) else { return }
-                    print(image)
+                    
                     let data = BeerModel(beerName: name, beerImage: image, beerDescription: description)
                     
                     self.beerList.append(data)
-                    //print(self.beerList)
-                    
                 }
                 self.beerTabelView.reloadData()
                 
@@ -55,11 +50,8 @@ class BeerListViewController: UIViewController {
                 print(error)
             }
         }
-
     }
-    
-    
-    
+     
 }
 
 extension BeerListViewController: UITableViewDelegate, UITableViewDataSource {

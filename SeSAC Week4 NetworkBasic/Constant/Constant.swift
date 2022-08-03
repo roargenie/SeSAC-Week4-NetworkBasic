@@ -15,6 +15,7 @@ struct EndPoint {
     static let lottoURL = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber"
     static let papagoURL = "https://openapi.naver.com/v1/papago/n2mt"
     static let beerURL = "https://api.punkapi.com/v2/beers"
+    static let imageSearchURL = "https://openapi.naver.com/v1/search/image.json?"
 }
 
 

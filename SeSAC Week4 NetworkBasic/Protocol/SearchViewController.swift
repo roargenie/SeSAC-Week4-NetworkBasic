@@ -6,7 +6,6 @@ import Alamofire
 import SwiftyJSON
 
 
-
 class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var searchTableView: UITableView!
@@ -25,7 +24,13 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         //XIB: xml interface bulder -> 예전에는 NIB파일씀
         searchTableView.register(UINib(nibName: ListTableViewCell.reuseIdentifier, bundle: nil), forCellReuseIdentifier: ListTableViewCell.reuseIdentifier)
         
-        requestBoxOffice(text: "20220801")
+        let format = DateFormatter()
+        format.dateFormat = "yyyyMMdd"
+//        let dateResult = Date(timeIntervalSinceNow: -86400)
+        let yesterday = Calendar.current.date(byAdding: .day, value: -1, to: Date())
+        let dateResult = format.string(from: yesterday!)
+        
+        requestBoxOffice(text: dateResult)
         
     }
     
@@ -40,7 +45,6 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.titleLabel.font = .boldSystemFont(ofSize: 22)
         cell.titleLabel.text = "Hello"
         cell.titleLabel.text = "\(boxOfficeList[indexPath.row].movieTitle): \(boxOfficeList[indexPath.row].releaseDate)"
-        
         
         return cell
     }
